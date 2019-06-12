@@ -1,0 +1,47 @@
+{{>header}}
+
+{{{setNavBar}}}
+
+<h1 style="text-align: center">Registro de cursos</h1>
+<form action="/crear_cursos_valid" method="POST" style="padding: 20px;">
+  <div class="container">
+    <div class="mb-3">
+      <label>Id</label>
+      <input type="number" class="form-control" name="id" required>
+    </div>
+    <div class="mb-3">
+      <label>Nombre</label>
+      <div class="input-group">
+        <input type="text" class="form-control" name="nombre" required>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label>Descripcion</label>
+      <div class="input-group">
+        <input type="text" class="form-control" name="descripcion" required>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label>Valor</label>
+      <input type="number" class="form-control" name="valor" required>
+    </div>
+    <div class="mb-3">
+      <div class="form-group">
+        <label>Modalidad</label>
+        <select class="form-control" name="modalidad">
+          <option value="Virtual">Virtual</option>
+          <option value="Presencial">Presencial</option>
+        </select>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label>Intensidad Horaria</label>
+      <input type="text" class="form-control" name="duracion" required>
+    </div>
+  </div>
+  <div class="text-center">
+    <button class="btn btn-primary">Guardar</button>
+  </div>
+</form>
+
+{{>footer}}

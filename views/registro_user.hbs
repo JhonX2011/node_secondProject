@@ -1,0 +1,31 @@
+{{>header}}
+<h1 style="text-align: center">Registro de usuarios</h1>
+<form action="/guardar_datos" method="POST" style="padding: 20px;">
+  <div class="container">
+    <div class="mb-3">
+      <label>Nombre Completo</label>
+      <input type="text" class="form-control" name="nombre" required>
+    </div>
+    <div class="mb-3">
+      <label>Documento</label>
+      <div class="input-group">
+        <input type="number" class="form-control" name="cedula" required>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label>Email</label>
+      <div class="input-group">
+        <input type="email" class="form-control" name="email" required>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label>Telefono</label>
+      <input type="number" class="form-control" name="telefono" required>
+    </div>
+  </div>
+  <div class="text-center">
+    <button class="btn btn-primary">Guardar</button><br><br>
+    <a href="/">Iniciar sesión</a>
+  </div>
+</form>
+{{>footer}}

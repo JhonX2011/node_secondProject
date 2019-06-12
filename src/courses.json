@@ -1,0 +1,1 @@
+[{"id":1,"name":"Programacion","description":"Este es un curso de programación orientado a objetos.","value":230000,"type":"Virtual","duration":"2 horas","state":"Cerrado","cant_user":0},{"id":2,"name":"Ingles","description":"Este es un curso de ingles fácil de aprender.","value":340000,"type":"Presencial","duration":"4 horas","state":"Disponible","cant_user":0}]

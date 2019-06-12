@@ -1,0 +1,30 @@
+body{
+    color: grey;
+    font-family: arial;
+    min-height: 100vh;
+}
+
+footer{
+    color: gray;
+    border-top: 2px solid gray;
+    margin-top: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1{
+    font-size: 38px;
+    margin-bottom: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.title{
+    color: #4062C2;
+    font-weight: bold;
+}
